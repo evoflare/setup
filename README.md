@@ -3,6 +3,11 @@
 1. Set DNS records for a domain name pointing to your machine. Open ports 80 and 443 on the machine.
 
 2. Install [Docker](https://docs.docker.com/engine/installation/) and [Docker Compose](https://docs.docker.com/compose/install/).
+Ubuntu
+```
+curl -Lso docker_ubuntu.sh https://evoflare.live/docker-ubuntu && chmod +x docker_ubuntu.sh
+./docker_ubuntu.sh
+```
 
 3. Run command  
 
